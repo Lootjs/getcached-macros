@@ -8,7 +8,7 @@
 ```php
 Book::query()
 ->whereIn('id', [1,2,3])
-->get);
+->get();
 ```
 #### С макросом:
 ```php
